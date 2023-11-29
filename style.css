@@ -1,0 +1,106 @@
+/* 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --background: #ffffff;
+    --red: #ed2b2a;
+    --orange: orange;
+    --green: rgb(8, 216, 112);
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 26px;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    font-family: 'poppins', sans-serif;
+    background-color: var(--background);
+    color: #000000;
+  }
+  
+  .btn {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+    outline: none;
+    background-color: #ed2b2a;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .header {
+    text-transform: capitalize;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+  }
+  .head_elements {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+  }
+  .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .logo img {
+    width: 50px;
+  }
+  .logo h2 span {
+    color: var(--red);
+  }
+  .register {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .login,
+  .signup {
+    width: 130px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid black;
+    font-weight: bolder;
+  }
+  .login.active {
+    background-color: var(--red);
+  }
+  
+  .login:hover,
+  .signup:hover {
+    background-color: var(--red);
+    color: white;
+  } */
